@@ -1,1 +1,0 @@
-(()=>{"use strict";function o(o,n){return o+n}o(3,5),console.log(o(3,5)),console.log("mmmm")})();
