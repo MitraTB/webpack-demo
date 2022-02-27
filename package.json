@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "build": "webpack",
+    "start": "webpack serve",
+    "dev": "webpack serve --hot"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +17,12 @@
     "css-loader": "^6.6.0",
     "html-webpack-plugin": "^5.5.0",
     "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^2.5.3",
+    "sass": "^1.49.8",
+    "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }
